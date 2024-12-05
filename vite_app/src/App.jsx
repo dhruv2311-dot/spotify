@@ -8,7 +8,6 @@ import './style.css'
 import home from './assets/Home.png'
 import search from './assets/Search.png'
 import option from './assets/grommet-icons_install-option.png'
-import toparrow from './assets/top arrow navigation.png'
 import user from './assets/User.png'
 import img4 from './assets/image4.png'
 import img3 from './assets/image3.png'
@@ -60,7 +59,7 @@ function App() {
         </div>
         <div className="cont">
           <div className="top">
-            <div className="arrows"><img src={toparrow} alt="" /></div>
+            <div className="arrows"><img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/top%20arrow%20navigation.png?raw=true" alt="" /></div>
             <div className="profile">
               <img src={user} alt="" />
             </div>
